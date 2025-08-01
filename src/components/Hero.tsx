@@ -109,8 +109,8 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* Scroll indicator - Fixed position for all devices */}
-        <div className="fixed bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce z-50">
+        {/* Scroll indicator - Centered horizontally within hero section */}
+        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce z-10">
           <button 
             onClick={scrollToAbout}
             className="flex flex-col items-center text-muted-foreground hover:text-primary transition-colors duration-300 group"
