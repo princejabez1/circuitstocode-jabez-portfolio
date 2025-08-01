@@ -47,7 +47,7 @@ const Hero = () => {
             </h1>
             
             <h2 className="text-2xl lg:text-3xl font-semibold mb-4 text-foreground">
-              Hi, I'm <span className="bg-gradient-accent bg-clip-text text-transparent">Jabez Kandavalli</span>
+              Hi, I'm <span className="bg-gradient-primary bg-clip-text text-transparent font-bold">Jabez Kandavalli</span>
             </h2>
             
             <p className="text-xl lg:text-2xl text-muted-foreground mb-8 font-medium">
@@ -109,14 +109,16 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* Scroll indicator */}
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+        {/* Scroll indicator - Fixed position for all devices */}
+        <div className="fixed bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce z-50">
           <button 
             onClick={scrollToAbout}
-            className="flex flex-col items-center text-muted-foreground hover:text-primary transition-colors duration-300"
+            className="flex flex-col items-center text-muted-foreground hover:text-primary transition-colors duration-300 group"
           >
-            <span className="text-sm mb-2 font-medium">Scroll to explore</span>
-            <ArrowDown className="h-6 w-6" />
+            <span className="text-sm mb-2 font-medium group-hover:text-primary">Scroll to explore</span>
+            <div className="w-8 h-8 rounded-full border-2 border-muted-foreground group-hover:border-primary transition-colors duration-300 flex items-center justify-center">
+              <ArrowDown className="h-4 w-4" />
+            </div>
           </button>
         </div>
       </div>
