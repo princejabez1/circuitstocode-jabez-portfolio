@@ -1,6 +1,6 @@
 import { Button } from './ui/button'
 import { ArrowDown, Download } from 'lucide-react'
-import profileImage from '@/assets/profile-image.jpg'
+const profileImageUrl = '/lovable-uploads/34676d59-3457-4ff4-a1a9-357fad041925.png'
 
 const Hero = () => {
   const scrollToAbout = () => {
@@ -93,7 +93,7 @@ const Hero = () => {
               <div className="relative w-80 h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-glass-border shadow-float animate-float">
                 <div className="absolute inset-0 bg-gradient-glass backdrop-blur-xl"></div>
                 <img
-                  src={profileImage}
+                  src={profileImageUrl}
                   alt="Jabez Kandavalli - AI & Full-Stack Developer"
                   className="w-full h-full object-cover relative z-10"
                 />
