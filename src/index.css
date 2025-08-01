@@ -142,7 +142,6 @@ All colors MUST be HSL for theme compatibility.
     --shadow-float: 0 20px 60px hsl(var(--primary) / 0.25);
   }
 }
-}
 
 @layer base {
   * {
