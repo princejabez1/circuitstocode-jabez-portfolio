@@ -7,18 +7,18 @@ const Experience = () => {
       type: "education",
       icon: <GraduationCap className="h-6 w-6" />,
       title: "B.Tech in Electrical & Electronics Engineering",
-      organization: "Engineering College",
-      period: "2018 - 2022",
-      description: "Specialized in instrumentation, control systems, and automation. Built strong analytical and problem-solving foundation.",
+      organization: "VelTech University",
+      period: "2013 - 2017",
+      description: "Specialized in Electrical and Electronics, control systems, and automation. Built strong analytical and problem-solving foundation.",
       gradient: "bg-gradient-primary",
-      achievements: ["CGPA: 8.2/10", "Instrumentation Project", "Circuit Design"]
+      achievements: ["CGPA: 7.2/10", "Instrumentation Project", "Circuit Design"]
     },
     {
       type: "preparation",
       icon: <Briefcase className="h-6 w-6" />,
       title: "IES Preparation & Career Transition",
       organization: "Self-Directed Learning",
-      period: "2022 - 2023",
+      period: "2017 - 2021",
       description: "Intensive preparation for Indian Engineering Services while exploring software development opportunities.",
       gradient: "bg-gradient-secondary",
       achievements: ["Engineering Services Prep", "Career Exploration", "Skill Assessment"]
@@ -28,7 +28,7 @@ const Experience = () => {
       icon: <Code className="h-6 w-6" />,
       title: "Full-Stack Web Development",
       organization: "NxtWave Academy",
-      period: "2023 - 2024",
+      period: "2022 - 2024",
       description: "Comprehensive training in modern web technologies, from frontend frameworks to backend development and database management.",
       gradient: "bg-gradient-accent",
       achievements: ["React.js Mastery", "Node.js Backend", "Database Design", "Project Portfolio"]

@@ -46,8 +46,8 @@ const Contact = () => {
     {
       icon: <Mail className="h-6 w-6" />,
       title: "Email",
-      detail: "jabez.kandavalli@example.com",
-      link: "mailto:jabez.kandavalli@example.com",
+      detail: "kjabezofficial@gmail.com",
+      link: "mailto:kjabezofficial@gmail.com",
       gradient: "bg-gradient-primary"
     },
     {
@@ -68,7 +68,7 @@ const Contact = () => {
       icon: <MapPin className="h-6 w-6" />,
       title: "Location",
       detail: "India",
-      link: "#",
+      link: "#https://maps.app.goo.gl/6n5vmgU9uTf6p6Lt7",
       gradient: "bg-gradient-primary"
     }
   ]
